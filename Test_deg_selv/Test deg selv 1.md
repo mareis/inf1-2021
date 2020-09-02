@@ -78,18 +78,15 @@ I main.css:
   - Bredde: 300px
   - Høyde: 100px
   - Bakgrunnsfarge: #A81E3B
-  - Ramme/marg: 10px, solid og #506B75
+  - Ramme: 10px, solid og #506B75
+  ```css
+  .boks {
+    border: 10px solid #506b75;
+  }
+  ```
   - Rund av kantene på boksen
   - Bruk <a href="https://www.w3schools.com/cssref/pr_margin.asp">margin</a> og test med 100px og auto. Hva skjer. Forklar i en p-tag inne i div-tagen i index.html.
   - Legg på <a href="https://www.w3schools.com/cssref/pr_padding.asp"> padding</a>. Prøv med ulike verdier (5px, 10px, 20px). Hva skjer? Forklar i en p-tag under den andre p-tagen i div-boksen.
-
-eks:
-
-```css
-.boks {
-  width: 300px;
-}
-```
 
 ## 3.3
 
