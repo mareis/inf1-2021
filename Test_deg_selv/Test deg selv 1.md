@@ -50,6 +50,10 @@ I index.html:
 
 - Legg til en <a href="https://www.w3schools.com/tags/tag_link.asp">link-tag</a> i <a href="https://www.w3schools.com/tags/tag_head.asp">head</a> for å koble til main.css i css-mappen din.
 
+```html
+<link rel="stylesheet" href="ccs/main.css" />
+```
+
 I main.css:
 
 - Bytt farger
