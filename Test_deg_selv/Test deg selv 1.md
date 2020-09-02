@@ -103,13 +103,13 @@ I index.html:
 
 I main.css:
 
-- sett bredden til div-en, med klasse hoved, til 800px bredde.
+- sett bredden til div-en, med klasse hoved, til 600px bredde.
 
 ```css
 .hoved {
-  width: 800px;
+  width: 600px;
   margin: auto;
 }
 ```
 
-- Velg en annen farge på bakgrunnen.
+- Velg en annen farge på bakgrunnen (f.eks #fff).
