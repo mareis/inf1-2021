@@ -76,4 +76,4 @@ I main.css:
   - Bakgrunnsfarge: #A81E3B
   - Ramme/marg: 10px, solid og #506B75
   - Rund av kantene på boksen
-  - Bruk <a href="https://www.w3schools.com/cssref/pr_margin.asp">margin</a> og test med 100px og auto. Hva skjer. Forklar i en p-tak under div-tagen i index.html
+  - Bruk <a href="https://www.w3schools.com/cssref/pr_margin.asp">margin</a> og test med 100px og auto. Hva skjer. Forklar i en p-tag under div-tagen i index.html
