@@ -57,9 +57,9 @@ I index.html:
 I main.css:
 
 - Bytt farger
-  - body-bagrunn: #E08077 <a href="https://www.w3schools.com/cssref/pr_background-color.asp">tips</a>
-  - h1: #1E82A8 <a href="https://www.w3schools.com/cssref/pr_text_color.asp">tips</a>
-  - h2: #A81E3B
+  - body-bagrunn: #9DD9D2 <a href="https://www.w3schools.com/cssref/pr_background-color.asp">tips</a>
+  - h1: #392F5A <a href="https://www.w3schools.com/cssref/pr_text_color.asp">tips</a>
+  - h2: #FF8811
   - p: #506B75
 
 ## 3.2
@@ -75,18 +75,31 @@ I index.html:
 I main.css:
 
 - Referer til til div-tagen og gjør følgende:
+
   - Bredde: 300px
-  - Høyde: 100px
-  - Bakgrunnsfarge: #A81E3B
-  - Ramme: 10px, solid og #506B75
+  - Høyde: 150px
+  - Bakgrunnsfarge: #392F5A
+  - Ramme:
+
   ```css
-  .boks {
-    border: 10px solid #506b75;
-  }
+  border: 10px solid #221c35;
   ```
+
   - Rund av kantene på boksen
   - Bruk <a href="https://www.w3schools.com/cssref/pr_margin.asp">margin</a> og test med 100px og auto. Hva skjer. Forklar i en p-tag inne i div-tagen i index.html.
   - Legg på <a href="https://www.w3schools.com/cssref/pr_padding.asp"> padding</a>. Prøv med ulike verdier (5px, 10px, 20px). Hva skjer? Forklar i en p-tag under den andre p-tagen i div-boksen.
+
+eks:
+
+```css
+.boks {
+  width: 300px;
+  border: 10px solid #221c35;
+}
+.boks p {
+  color: #fff8f0;
+}
+```
 
 ## 3.3
 
@@ -108,9 +121,9 @@ I main.css:
 
 ```css
 .hoved {
-  width: 600px;
+  width: 800px;
   margin: auto;
 }
 ```
 
-- Velg en annen farge på bakgrunnen (f.eks #fff) og legg til padding.
+- Velg fargen #FFF8F0 på bakgrunnen til hoved og legg til 20px padding.
