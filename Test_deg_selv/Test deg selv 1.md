@@ -116,4 +116,4 @@ I main.css:
 }
 ```
 
-- Velg en annen farge på bakgrunnen (f.eks #fff).
+- Velg en annen farge på bakgrunnen (f.eks #fff) og legg til padding.
