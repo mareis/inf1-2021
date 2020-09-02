@@ -39,4 +39,9 @@ I index.html:
 
 - Lag en overskrift (<a href="https://www.w3schools.com/tags/tag_hn.asp">h2</a>) "2.1".
 - Lag en linje under med <a href="https://www.w3schools.com/tags/tag_hr.asp">hr</a>.
-- Lag en overskrift (h3) med teksten
+- Lag en overskrift (<a href="https://www.w3schools.com/tags/tag_hn.asp">h3</a>) med teksten HTML.
+- Lag to paragrafer (<a href="https://www.w3schools.com/tags/tag_p.asp">p</a>) med litt informasjon om <a html="https://en.wikipedia.org/wiki/HTML">HTML</a>.
+
+## 3.1
+
+---
