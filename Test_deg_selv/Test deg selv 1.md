@@ -76,4 +76,5 @@ I main.css:
   - Bakgrunnsfarge: #A81E3B
   - Ramme/marg: 10px, solid og #506B75
   - Rund av kantene på boksen
-  - Bruk <a href="https://www.w3schools.com/cssref/pr_margin.asp">margin</a> og test med 100px og auto. Hva skjer. Forklar i en p-tag under div-tagen i index.html
+  - Bruk <a href="https://www.w3schools.com/cssref/pr_margin.asp">margin</a> og test med 100px og auto. Hva skjer. Forklar i en p-tag inne i div-tagen i index.html.
+  - Legg på <a href="https://www.w3schools.com/cssref/pr_padding.asp"> padding</a>. Prøv med ulike verdier (5px, 10px, 20px). Hva skjer? Forklar i en p-tag under den andre p-tagen i div-boksen.
