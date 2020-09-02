@@ -27,7 +27,7 @@ I index.html:
 
 I index.html:
 
-- Lag en overskrift (<a href="https://www.w3schools.com/tags/tag_hn.asp">h2</a>) "2.1".
+- Lag en overskrift (<a href="https://www.w3schools.com/tags/tag_hn.asp">h2</a>) "2.2".
 - Lag en linje under med <a href="https://www.w3schools.com/tags/tag_hr.asp">hr</a>.
 - Lag en liste med <a href="https://www.w3schools.com/tags/tag_ul.asp">ul</a> der du lister opp komponentene vi har snakket om i timen.
 
