@@ -78,3 +78,38 @@ I main.css:
   - Rund av kantene på boksen
   - Bruk <a href="https://www.w3schools.com/cssref/pr_margin.asp">margin</a> og test med 100px og auto. Hva skjer. Forklar i en p-tag inne i div-tagen i index.html.
   - Legg på <a href="https://www.w3schools.com/cssref/pr_padding.asp"> padding</a>. Prøv med ulike verdier (5px, 10px, 20px). Hva skjer? Forklar i en p-tag under den andre p-tagen i div-boksen.
+
+eks:
+
+```css
+.boks {
+  width: 300px;
+}
+```
+
+## 3.2
+
+---
+
+I index.html:
+
+- Legg til en div rundt alt du har gjort inne i body som koden under.
+
+```html
+<body>
+  <div class="hoved">...Resten av koden din...</div>
+</body>
+```
+
+I main.css:
+
+- sett bredden til div-en, med klasse hoved, til 800px bredde.
+
+```css
+.hoved {
+  width: 800px;
+  margin: auto;
+}
+```
+
+- Velg en annen farge på bakgrunnen.
