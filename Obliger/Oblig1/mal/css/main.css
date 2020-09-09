@@ -9,20 +9,20 @@
 /* base styles */
 body {
   /*Endre farge på bakgrunnen?*/
+  background-color: var(--secondary);
   font-family: "Rubik Regular";
 }
 
 /* fonts */
 @font-face {
   font-family: "Rubik Regular";
-  src: url("assets/fonts/Rubik-Regular.ttf") format("ttf");
+  src: url("fonts/Rubik-Regular.ttf") format("ttf");
 }
 /*Endre farge på h1, h3 og p?*/
 
 /* mobile styles */
 header img {
-  overflow-x: hidden;
-  width: 500px;
+  width: 100%;
 }
 #portfolio {
   text-align: center;

@@ -4,7 +4,7 @@
 
 ---
 
-- Last ned <a href="https://mrfylke-my.sharepoint.com/:u:/g/personal/mads_opstad_reistadbakk_mrfylke_no/Echv5Ws_xFZDhbv2VHXNlPkB__KblYbBfTQudf3k4WQSaA?e=Qa2XFk">mal.zip</a> og legg den til i oblig-mappen din under IT-1. Bytt navn på mappen til "oblig1"
+- Last ned <a href="https://mrfylke-my.sharepoint.com/:u:/g/personal/mads_opstad_reistadbakk_mrfylke_no/EVQVB986V1VDsawDlZkIZG0BxlEm8y-H7SKjsoOpHxCnyA?e=hM07hw">mal.zip</a> og legg den til i oblig-mappen din under IT-1. Bytt navn på mappen til "oblig1"
 
 ## 2.1 - Farger
 
