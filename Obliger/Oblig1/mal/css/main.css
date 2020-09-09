@@ -8,8 +8,8 @@
 
 /* base styles */
 body {
-  /*Endre farge på bakgrunnen?*/
-  background-color: var(--secondary);
+  /*Endre farge på bakgrunnen*/
+  background-color: var(--primary);
   font-family: "Rubik Regular";
 }
 

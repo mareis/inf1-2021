@@ -4,7 +4,7 @@
 
 ---
 
-- Last ned <a href="https://mrfylke-my.sharepoint.com/:u:/g/personal/mads_opstad_reistadbakk_mrfylke_no/EVQVB986V1VDsawDlZkIZG0BxlEm8y-H7SKjsoOpHxCnyA?e=hM07hw">mal.zip</a> og legg den til i oblig-mappen din under IT-1. Bytt navn på mappen til "oblig1"
+- Last ned <a href="https://mrfylke-my.sharepoint.com/:u:/g/personal/mads_opstad_reistadbakk_mrfylke_no/Ed_pbrMekh5Bsqw7Vx9YpzgBd4ZY3JX-CX197AmlsFQtYg?e=GB0XGg">mal.zip</a> og legg den til i oblig-mappen din under IT-1. Bytt navn på mappen til "oblig1"
 
 ## 2.1 - Farger
 
@@ -16,6 +16,26 @@ I main.css:
   Mangler du farger kan du legge til dine egne variabler i :root.
 
   <a href="https://www.w3schools.com/css/css3_variables.asp">Les om variabler i css.</a>
+
+Bytt fra
+
+```css
+body {
+  /*Endre farge på bakgrunnen*/
+  background-color: var(--primary);
+  font-family: "Rubik Regular";
+}
+```
+
+til
+
+```css
+body {
+  /*Endre farge på bakgrunnen*/
+  background-color: var(--secondary);
+  font-family: "Rubik Regular";
+}
+```
 
 ## 2.2 - Tekststørelse
 
