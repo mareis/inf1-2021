@@ -17,23 +17,21 @@ I main.css:
 
   <a href="https://www.w3schools.com/css/css3_variables.asp">Les om variabler i css.</a>
 
-## 2.2 - Luft:
+## 2.2 - Tekststørelse
 
 ---
 
 I main.css:
 
-- Legg til padding, magin og linjehøyde på de ulike elementene.
+- Endre <a href="https://www.w3schools.com/cssref/pr_font_font-size.asp">font-size</a> og <a href="https://www.w3schools.com/cssref/pr_dim_line-height.asp">line-height</a> slik at det blir lettere å lese.
 
-## 2.3
+## 2.3 - Luft
 
 ---
 
-I main.css:
+- Legg til <a href="https://www.w3schools.com/cssref/pr_padding.asp">padding</a> og <a href="https://www.w3schools.com/cssref/pr_margin.asp">margin</a>på de ulike elementene.
 
-- Legg til padding, magin og linjehøyde på de ulike elementene.
-
-## 2.4
+## 2.4 - Footer
 
 ---
 
@@ -45,7 +43,7 @@ I main.css:
 
 - Og gjør endringer på innholdet med css
 
-## 3.1
+## 3.1 - Ekstra
 
 ---
 
