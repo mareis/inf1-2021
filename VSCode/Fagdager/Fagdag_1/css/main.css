@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap");
+
+/*-----------[ FELLES ]-------------*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px;
+  text-align: center;
+}
+header {
+  display: flex;
+  flex-direction: column-reverse;
+}
+#logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+/*------------[ HJEM ]----------------*/
+#pictures {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+#pictures img {
+  width: 100%;
+}
+
+@media screen and (min-width: 550px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 38px;
+  }
+  nav {
+    flex-direction: row;
+  }
+  nav a {
+    padding: 0;
+    margin-right: 18px;
+    border-bottom: 1px solid transparent;
+  }
+  nav a:hover {
+    border-bottom: 1px solid gray;
+  }
+  #logo {
+    padding: 0;
+  }
+
+  /*------------[ HJEM ]----------------*/
+  #pictures {
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: stretch;
+  }
+}
