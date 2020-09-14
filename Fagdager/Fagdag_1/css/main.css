@@ -18,6 +18,10 @@ nav a {
   padding: 15px;
   text-align: center;
 }
+.checkbox {
+  display: block;
+}
+
 header {
   display: flex;
   flex-direction: column-reverse;
@@ -37,6 +41,19 @@ header {
 }
 #pictures img {
   width: 100%;
+}
+
+/*------------[ OM ]----------------*/
+#about {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+#about img {
+  width: 100%;
+}
+#about-text {
+  padding: 18px;
 }
 
 @media screen and (min-width: 550px) {
@@ -64,5 +81,14 @@ header {
   #pictures {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: stretch;
+  }
+
+  /*------------[ OM ]----------------*/
+  #about {
+    grid-template-columns: 1fr 1fr;
+  }
+  #baut-text h2 {
+    margin: 0;
+    padding: 0;
   }
 }
