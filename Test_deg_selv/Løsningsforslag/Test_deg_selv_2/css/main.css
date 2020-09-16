@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
+}
+header {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #2b333f;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+}
+#logo {
+  color: #faa916;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+footer {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #2b333f;
+  color: #faa916;
+  letter-spacing: 0.05em;
+}
+#banner {
+  background-image: url("../img/fog.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: #bbc1cd;
+  padding: 15px;
+}
+#banner-text {
+  text-align: center;
+}
+#banner-text h2 {
+  color: #b3001b;
+}
+#main-grid {
+  display: grid;
+}
+.box {
+  background-color: #bbc1cd;
+  padding: 5px;
+  color: #2b333f;
+}
+.box img {
+  width: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+.box img:hover {
+  filter: grayscale(0%);
+}
+.color-text {
+  color: #254d32;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 550px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 38px;
+    border-bottom: 3px solid #faa916;
+  }
+  nav {
+    flex-direction: row;
+  }
+  nav a {
+    padding: 0;
+    margin-right: 18px;
+    border-bottom: 1px solid transparent;
+  }
+  nav a:hover {
+    border-bottom: 1px solid gray;
+  }
+  #logo {
+    padding: 0;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 38px;
+  }
+  #banner {
+    padding: 38px;
+  }
+  #banner-text {
+    margin: auto;
+    max-width: 800px;
+  }
+  #main-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: stretch;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .box {
+    margin: 20px 0;
+  }
+  /*------------[ HJEM ]----------------*/
+
+  /*------------[ PRODUKTER ]----------------*/
+
+  /*------------[ OM ]----------------*/
+  #about {
+    grid-template-columns: 1fr 1fr;
+  }
+  #baut-text h2 {
+    margin: 0;
+    padding: 0;
+  }
+}
