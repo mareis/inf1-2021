@@ -40,7 +40,9 @@ footer {
   background-size: cover;
   background-position: bottom;
   color: #bbc1cd;
-  padding: 15px;
+  height: 300px;
+  display: grid;
+  align-items: center;
 }
 #banner-text {
   text-align: center;
