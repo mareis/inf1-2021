@@ -24,7 +24,7 @@ Utvid programmet til å telle antall forsøk og skriv ut resultatet.
 
 Det skal fungere i Thonny, men ikke kall filen for turtle.py!
 
-Hvis det ikke fungerer i Thony kan du bruke Trinket.
+Hvis det ikke fungerer i Thony kan du bruke [repl.it](https://repl.it/languages/python_turtle).
 
 **b)** Oversett variabelnavnene til norsk og kommenter så mye du klarer av koden.
 
