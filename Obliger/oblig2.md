@@ -17,6 +17,9 @@ Er du usikker på noe kan du se OneNote og se gjennnom og jobbe deg gjennom [tem
 
 Utvid programmet til å telle antall forsøk og skriv ut resultatet.
 
+Her er en litt mere komplisert alternativ som er forklart ganske nøye:
+[En alternativ måte](http://inventwithpython.com/chapter4.html)
+
 ## Oppgave 2 Veddeløp
 ---
 
