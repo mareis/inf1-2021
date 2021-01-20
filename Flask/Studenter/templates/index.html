@@ -10,6 +10,23 @@
 <body>
     <h1>Studenter</h1>
     <a href="ny">Legg til ny student</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for student in studenter %}
+            <tr>
+                <td>{{ student.navn }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+
 </body>
 
 </html>

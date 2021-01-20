@@ -18,11 +18,15 @@ def __init__(self, navn):
 
 
 @app.route('/')
-def show_all():
+def index():
     studenter = db.engine.execute('SELECT * FROM studenter')
     return render_template('index.html', studenter=studenter)
 
 
 @app.route('/ny', methods=['GET', 'POST'])
 def ny():
+    if request.method == 'POST':
+        navn = request.form.get('navn')
+        db.engine.execute("INSERT INTO studenter (navn) VALUES(?)", navn)
+        return redirect("/")
     return render_template('ny.html')
