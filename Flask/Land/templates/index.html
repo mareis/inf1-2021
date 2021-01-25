@@ -8,17 +8,17 @@
 </head>
 
 <body>
+
     <h1>Studenter</h1>
+
     <table>
         <thead>
-            <th>ID</th>
             <th>Navn</th>
         </thead>
         <tbody>
-            {% for student in studenter %}
+            {% for rad in land %}
             <tr>
-                <td>{{ student.id }}</td>
-                <td>{{ student.navn }}</td>
+                <td>{{ rad.navn }}</td>
             </tr>
             {% endfor %}
         </tbody>

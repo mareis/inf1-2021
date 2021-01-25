@@ -24,3 +24,12 @@ def index():
 
     # Sender (studenter) radene i tabellen til index.html og gjør om til html
     return render_template('index.html', studenter=studenter)
+
+
+@app.route('/filter')
+def filter():
+    # Henter alle radene og kolonnene i tabellen, studenter
+    studenter = db.engine.execute('SELECT * FROM studenter WHERE navn="Peach"')
+
+    # Sender (studenter) radene i tabellen til index.html og gjør om til html
+    return render_template('index.html', studenter=studenter)
