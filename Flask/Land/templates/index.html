@@ -14,11 +14,13 @@
     <table>
         <thead>
             <th>Navn</th>
+            <th>Befolkning</th>
         </thead>
         <tbody>
             {% for rad in land %}
             <tr>
                 <td>{{ rad.navn }}</td>
+                <td>{{ rad.innbyggere }}</td>
             </tr>
             {% endfor %}
         </tbody>

@@ -12,18 +12,18 @@ db = SQLAlchemy(app)
 class land(db.Model):
     id = db.Column('id', db.Integer, primary_key=True)
     navn = db.Column('navn', db.String(100))
-    befolkning = db.Column('befolkning', db.Integer)
+    innbyggere = db.Column('innbyggere', db.Integer)
 
 
-def __init__(self, navn, befolkning):
+def __init__(self, navn, innbyggere):
     self.navn = navn
-    self.befolkning = befolkning
+    self.innbyggere = innbyggere
 
 
 @app.route('/')
 def index():
     # Henter alle radene og kolonnene i tabellen, land
-    land = db.engine.execute('SELECT * FROM land')
+    land = db.engine.execute('SELECT * FROM land ORDER BY innbyggere DESC')
 
     # Sender (land) radene i tabellen til index.html og gjør om til html
     return render_template('index.html', land=land)
