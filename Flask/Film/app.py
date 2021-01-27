@@ -9,7 +9,7 @@ db = SQLAlchemy(app)
 # Tabellen land med tre kolonner (id og navn og befolkning)
 
 
-class filmer(db.Model):
+class Filmer(db.Model):
     id = db.Column('id', db.Integer, primary_key=True)
     tittel = db.Column('tittel', db.String(255))
     terningkast = db.Column('terningkast', db.Integer)

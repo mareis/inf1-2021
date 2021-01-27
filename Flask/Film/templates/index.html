@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmer</title>
+    <style>
+        #grid {
+            max-width: 700px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        #grid div {
+            background-color: aliceblue;
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="grid">
+        {% for film in filmer %}
+        <div>
+            <h1>{{film.tittel}}</h1>
+            <p>Terningkast: {{film.terningkast}}</p>
+            <p>Årstall: {{film.aar}}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+</body>
+
+</html>
