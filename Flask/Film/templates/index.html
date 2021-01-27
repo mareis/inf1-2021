@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filmer</title>
     <style>
+        body {
+            background-color: blueviolet;
+        }
+
         #grid {
             max-width: 700px;
             margin: auto;
@@ -19,22 +23,31 @@
             border: 2px solid black;
             padding: 10px;
         }
+
+        #grid div:hover {
+            cursor: pointer;
+            box-shadow: 3px 3px 7px 7px #55074e;
+        }
+
+        h1 {
+            text-align: center;
+        }
     </style>
 
 </head>
 
 <body>
 
+    <h1>Filmting</h1>
     <div id="grid">
         {% for film in filmer %}
         <div>
-            <h1>{{film.tittel}}</h1>
+            <h2>{{film.tittel}}</h2>
             <p>Terningkast: {{film.terningkast}}</p>
             <p>Årstall: {{film.aar}}</p>
         </div>
         {% endfor %}
     </div>
-
 </body>
 
 </html>
