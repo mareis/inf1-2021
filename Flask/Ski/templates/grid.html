@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmer</title>
+    <style>
+        body {
+            background-color: rgb(50, 70, 97);
+        }
+
+        #pakker {
+            max-width: 700px;
+            margin: auto;
+        }
+
+        #grid {
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            text-align: center;
+        }
+
+        #grid div {
+            background-color: aliceblue;
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        #grid div:hover {
+            cursor: pointer;
+            box-shadow: 3px 3px 7px 7px #55074e;
+        }
+
+        h1 {
+            text-align: center;
+            color: aliceblue;
+        }
+
+        .pris {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        a {
+            color: azure;
+            text-decoration: none;
+            font-size: 1.5em;
+            margin-right: 10px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id=pakker>
+        <h1>Ski</h1>
+        <br>
+        <a href="/">Hjem</a>
+        <a href="/grid">Grid</a>
+        <br>
+        <br>
+        <div id="grid">
+            {% for ski in skiene %}
+            <div>
+                <h3>{{ski.merke}}</h3>
+                <h4>{{ski.modell}}</h4>
+                <p>Bredde: {{ski.bredde}} mm</p>
+                <p>Vekt: {{ski.vekt}} mm</p>
+                <p class="pris"><b>{{ski.pris}},-</b></p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+
+</html>

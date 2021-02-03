@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ski</title>
+    <style>
+        body {
+            background-color: rgb(50, 70, 97);
+        }
+
+        #pakker {
+            max-width: 700px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: aliceblue;
+        }
+
+        a {
+            color: azure;
+            text-decoration: none;
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 2px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            color: azure;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id=pakker>
+        <h1>Ski</h1>
+        <br>
+        <a href="/">Hjem </a>
+        <a href="/grid">Grid </a>
+        <br>
+        <br>
+        <table>
+            <thead>
+                <th>Merke</th>
+                <th>Modell</th>
+                <th>Vekt (g)</th>
+                <th>Bredde (mm)</th>
+                <th>Pris (kr)</th>
+            </thead>
+            <tbody>
+                {% for ski in skiene %}
+                <tr>
+                    <td>{{ ski.merke }}</td>
+                    <td>{{ ski.modell }}</td>
+                    <td>{{ski.vekt}}</td>
+                    <td>{{ski.bredde}}</td>
+                    <td>{{ski.pris}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
