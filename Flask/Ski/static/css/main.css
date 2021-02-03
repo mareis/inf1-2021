@@ -26,6 +26,10 @@ body {
     box-shadow: 3px 3px 7px 7px #55074e;
 }
 
+#grid img {
+    width: 100%;
+}
+
 h1 {
     text-align: center;
     color: aliceblue;

@@ -37,6 +37,9 @@ def index():
 @app.route('/grid')
 def grid():
     ski = db.engine.execute(
-        'SELECT * FROM ski ORDER BY vekt ASC')
+        'SELECT * FROM ski ORDER BY bredde DESC')
 
     return render_template('grid.html', skiene=ski)
+
+
+app.run(debug=True)
