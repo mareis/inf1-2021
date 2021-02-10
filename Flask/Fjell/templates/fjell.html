@@ -10,7 +10,6 @@
 
 <body>
     <div id=pakker>
-        <h1>Topp 10</h1>
         <br>
         <a class="meny" href="/">Hjem</a>
         <a class="meny" href="/liste/navn">Liste</a>
@@ -23,6 +22,10 @@
                 <img src="../../static/img/{{fjell.bilde}}" alt="">
                 <p>Høyde: {{fjell.hoyde}}</p>
                 <p>Kommune: {{fjell.kommune}}</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2930.7523735243594!2d7.159587418734205!3d62.73896288423836!2m3!1f0!2f38.67801376016844!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x4611578dac4c3b53%3A0x496b304702bc1686!2sTusen%C3%A5rsvarden!5e1!3m2!1sno!2sno!4v1612956554150!5m2!1sno!2sno"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
             </div>
             {% endfor %}
 
