@@ -46,6 +46,7 @@ a {
     font-size: 1.5em;
     margin-right: 10px;
 
+<<<<<<< HEAD
 }
 table,th,td {
             border: 1px solid black;
@@ -60,4 +61,6 @@ table {
     border: 1px solid black;
     padding: 2px;
     text-align: center;
+=======
+>>>>>>> ac934ac5de0509d879ae348196638aaad7178d33
 }
