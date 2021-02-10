@@ -18,9 +18,9 @@
         <br>
         <div>
             {% for fjell in fjellene %}
-            <div>
+            <div id="fjell">
+                <h2>{{fjell.navn}}</h2>
                 <img src="../../static/img/{{fjell.bilde}}" alt="">
-                <h3>{{fjell.navn}}</h3>
                 <p>Høyde: {{fjell.hoyde}}</p>
                 <p>Kommune: {{fjell.kommune}}</p>
             </div>
