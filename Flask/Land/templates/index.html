@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studenter</title>
+</head>
+
+<body>
+
+    <h1>Studenter</h1>
+
+    <table>
+        <thead>
+            <th>Navn</th>
+            <th>Befolkning</th>
+        </thead>
+        <tbody>
+            {% for rad in land %}
+            <tr>
+                <td>{{ rad.navn }}</td>
+                <td>{{ rad.innbyggere }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+
+</html>

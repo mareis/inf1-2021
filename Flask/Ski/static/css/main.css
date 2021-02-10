@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(50, 70, 97);
+}
+
+#pakker {
+    max-width: 700px;
+    margin: auto;
+}
+
+#grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+
+#grid div {
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#grid div:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 7px 7px #55074e;
+}
+
+#grid img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.pris {
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-right: 10px;
+
+}
+table,th,td {
+            border: 1px solid black;
+            padding: 2px;
+            text-align: center;
+        }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: azure;
+    border: 1px solid black;
+    padding: 2px;
+    text-align: center;
+}

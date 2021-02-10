@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+</head>
+
+<body>
+    <div id=pakker>
+        <h1>Ski</h1>
+        <br>
+        <a href="/">Hjem</a>
+        <a href="/grid">Grid</a>
+        <br>
+        <br>
+        <div id="grid">
+            {% for ski in skiene %}
+            <div>
+                <img src="static/img/{{ski.bilde}}" alt="">
+                <h3>{{ski.merke}}</h3>
+                <h4>{{ski.modell}}</h4>
+                <p>Bredde: {{ski.bredde}} mm</p>
+                <p>Vekt: {{ski.vekt}} g</p>
+                <p class="pris"><b>{{ski.pris}},-</b></p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+
+</html>
